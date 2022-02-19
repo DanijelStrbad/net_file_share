@@ -1,2 +1,2 @@
-# net_file_share
+# Network file sharing
 Server and client for sending files over the network.
