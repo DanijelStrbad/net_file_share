@@ -19,7 +19,7 @@
 
 void printHelp() {
 	printf("\nHelp:\n");
-	printf("tcpklijent [-s server] [-p server port] [-c] [-v] [-h] filename\n c - continue transmission of the file 'filename'\n (not implemented)\n");
+	printf("tcpclient [-s server] [-p server port] [-c] [-v] [-h] filename\n c - continue transmission of the file 'filename'\n (not implemented)\n");
 	return;
 }
 
