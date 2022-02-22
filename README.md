@@ -2,7 +2,7 @@
 Server and client for sending files over the network.
 
 
-tcpklijent [-s server] [-p server port] [-c] [-v] [-h] filename
+tcpclient [-s server] [-p server port] [-c] [-v] [-h] filename
 
 
 tcpserver [-p port] [-v] [-h]
