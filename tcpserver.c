@@ -106,12 +106,9 @@ int main(int argc, char *argv[]) {
 			printf("\nAccept done\n");
 		}
 		
-		/*if( setsockopt(newSock, IPPROTO_TCP, SO_REUSEADDR, &onFlag, sizeof(int)) == -1 ) {
-			err(23, "\n\nNet problem - setsockopt, newSock - from Accept (exit code 23)\n");
-		}*/
 		
 		memset(msgBuff, (char) 0, sizeof(msgBuff));
-		// recvLen = Recv(newSock, msgBuff, MAXLEN-1, 0);
+		// recvLen = Recv(newSock, msgBuff, MAXLEN, 0);
 		recvLen = Recv(newSock, &msgBuff[0], 1, 0);
 		recvLen = Recv(newSock, &msgBuff[1], 1, 0);
 		recvLen = Recv(newSock, &msgBuff[2], 1, 0);
